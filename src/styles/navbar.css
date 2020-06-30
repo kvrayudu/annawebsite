@@ -1,0 +1,49 @@
+
+.navDiv {
+    position: fixed;
+    padding-top: 5px;
+    padding-left: 3%;
+    font-size: 20px;
+    height: 100%;
+}
+
+ul{
+    list-style:none;
+    padding-left: 1em;
+}
+
+.SvgDrop{
+    width: 40px;
+}
+
+.linkColor{
+    color: #ff7208;
+}
+.linkColor:hover{
+    text-decoration-style: wavy;
+    color: #ff7208;  
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #d7d7d7;
+    background: #fff;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: hotpink;
+}

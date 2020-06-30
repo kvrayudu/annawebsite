@@ -1,0 +1,33 @@
+.App {
+    font-family: sans-serif;
+    /* padding-top: 15%; */
+  }
+  .scrollspy {
+    margin: 10px;
+    position: fixed;
+
+
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 5px;
+    padding: 5px 0;
+    font-size: 18px;
+  }
+
+  a {
+    color: black;
+  }
+  a:hover{
+    color: #ff7208;
+  }
+  .isCurrent {
+    font-weight: bold;
+   
+  }
+  
+  .isCurrent a, h2 {
+    color: #ff7208;
+  }

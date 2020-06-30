@@ -5,6 +5,15 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        custom: {
+          families: ["Redaction"],
+          urls: ["/fonts/fonts.css"],
+        }
+      }
+    }
+  ]
 }

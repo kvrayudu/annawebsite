@@ -1,0 +1,50 @@
+.svgDrop{
+    width: 25px;
+    height: 25px;
+}
+
+#section-1{
+    padding-top: 8.5%;
+    font-family: Redaction;
+}
+
+#section-2{
+    font-family: Redaction;
+}
+
+#section-3{
+    font-family: Redaction;
+}
+
+#section-4{
+    font-family: Redaction;
+}
+
+.scrollspy{
+    padding-top: 9%;
+    padding-right: 100px;
+    font-family: Redaction;
+  
+}
+
+.navItem:hover{
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #ffa866; 
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    font-family: Redaction;
+}
+@media (min-width: 768px){
+    .footer{
+        height: 200px;
+    }   
+}
+.typefaceLink:hover{
+color: black;
+}

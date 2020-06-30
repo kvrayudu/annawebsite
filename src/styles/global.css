@@ -1,0 +1,31 @@
+/* html {
+    background-color: lavenderblush;
+  } */
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body {
+    /* height: 3000px;  */
+    /* background: linear-gradient(55deg, #fff1e6 0%, #ffe2cc 51%, #ffffff 81%); */
+    background: linear-gradient(55deg, #fff1e6 0%, #ffe2cc 51%, #ffffff 85%);
+
+    /* background: linear-gradient(55deg, #bdd7f0 0%, #cce6ff 51%, #ffffff 81%); */
+    /* background: linear-gradient(55deg, #e0e6de 0%, #e0e6de 51%, #ffffff 81%); */
+
+    /* background-color: #bad1f7; */
+
+    background: linear-gradient(55deg, #c9eaf9 0%, #e8f6fd 70%, #ffffff 85%);
+
+
+  }
+
+  .mainContainer{
+    padding-top: 15%;
+    padding-bottom: 10%;
+  }
+
+
+

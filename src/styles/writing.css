@@ -1,0 +1,63 @@
+/* PHONE */
+.writingSectionHead{
+    font-size: 36px;
+    color:  #ff7208;
+}
+.writingSectionSubHead{
+    font-size: 26px;
+}
+
+.selectedHead{
+    font-size: 24px; 
+    color:  #4db8ff;
+}
+.selectedSentence{
+    font-style: italic;
+    font-size: 14px; 
+}
+
+.selectedArticleDiv{
+    padding-bottom: 1%; 
+    /* font-style: italic; */
+}
+.allArticlesLink{
+    color: #ffa866; 
+    font-size: 24px; 
+}
+
+.articleLink{
+    color: #808080; 
+}
+
+.authorPageLink{
+    font-style: italic;
+}
+.articleLink:hover{
+    text-decoration: none;
+    color: #ff7208;  
+}
+
+.allArticlesLink:hover{
+    text-decoration: none;
+    color: #ff7208; 
+}
+.authorPageLink:hover{
+    text-decoration: none;
+    color: #ff7208; 
+}
+
+#writingSection{
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 120px;
+    
+}
+
+
+
+/* MEDIUM SIZE AND ABOVE */
+@media (min-width: 768px){
+    #writingSection{
+        font-size: 20px;
+    }   
+}

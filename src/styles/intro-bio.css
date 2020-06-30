@@ -1,0 +1,107 @@
+/* COLORS:
+Green
+#49c449
+
+Orange
+#ff7208
+
+lighter orange for links
+#ffa866
+
+Blue
+#4db8ff 
+
+Slightly Darker Blue
+#008ae6
+*/
+
+
+
+/* MEDIUM SIZE AND ABOVE */
+@media (min-width: 768px){
+    .inlineText{
+        display:inline; 
+        color: #ffa866; 
+    }
+    .makeDisappearAtMedium{
+        display: none;
+    }
+}
+
+
+/* PHONE */
+
+.containerAllCols{
+    color:  #000000;
+    width: 100%;
+    height: 10%; 
+   
+}
+
+.inlineText{
+    display:inline; 
+}
+
+.inlineTextLink{
+    color: #ffa866;
+}
+
+.inlineTextLink:hover{
+    text-decoration-style: wavy;
+    color: #ff7208;  
+}
+
+.sectionHead{
+    font-size: 40px;
+    color: #ff7208; 
+}
+
+
+@media (min-width: 768px){
+    .containerAllCols{
+        font-size: 22px;
+    }   
+}
+
+
+
+/* POPUP IMAGES */
+#movingImage1 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: fixed;
+    display: none;
+}
+
+#movingImage2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:180px;
+    position: fixed;
+    display: none;
+}
+
+#movingImage3 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: fixed;
+    display: none;
+}
+
+/* 
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } 
+
+*/
