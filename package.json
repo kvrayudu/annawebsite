@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "gatsby": "^2.20.12",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-modal-routing": "^1.1.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "jquery": "^3.5.0",
